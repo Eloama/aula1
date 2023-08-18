@@ -1,0 +1,8 @@
+const somaQuadradosPares = (numeros) => {return numeros.reduce((soma, numero) => {if (numero % 2 === 0) { return soma + numero ** 2;}return soma;}, 0);
+
+};
+const arrayDeNumeros = [1, 2, 3, 4, 5, 6];
+
+const resultado = somaQuadradosPares(arrayDeNumeros);
+
+console.log("Soma dos quadrados dos números pares:", resultado); 
