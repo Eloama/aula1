@@ -1,0 +1,5 @@
+const n = 5
+console.log(`Tabuada do ${n}\n`)
+
+for(let i = 3; i <= 12; i++)
+	console.log(`${n} x ${i} = ${n*i}`)
