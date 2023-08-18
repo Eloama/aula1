@@ -1,0 +1,15 @@
+
+let permissao = 'funcionario'
+switch (permissao) {
+case 'funcionario':
+console.log(`voce tem permissao de ${permissao}`)
+break
+case 'gerente':
+console.log(`voce tem permissao de ${permissao} `)
+break
+case 'diretor':
+console.log(`voce tem permissao de ${permissao} `)
+break
+default:
+console.log(`voce nao tem permissao alguma`)
+}
